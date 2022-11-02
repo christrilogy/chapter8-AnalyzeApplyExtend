@@ -1,7 +1,7 @@
 /*
 Author: Christian Morgan
 Date: 11/1/22
-File Name: apply08
+File Name:
 */
 
 /* CSS Reset */
@@ -13,7 +13,7 @@ body, main, footer, table {
 
 /* Style rule for body */
 body {
-	background-color: #f4f9e1;
+	background-color: #ffe5dc;
 }
 
 /* Adds a table around the table*/
@@ -23,7 +23,7 @@ table{
   margin-bottom: 0;
   margin-left: auto;
   margin-right: auto;
-  border: 3px solid #71881b;
+  border: 3px solid #fd4d0c;
 }
 /* Create space on the table*/
 table, tr, th, td{
@@ -39,7 +39,7 @@ caption{
 
 /*Adds border around the table headers and table data*/
 th, td {
-  border: 1px solid #71881b;
+  border: 1px solid #a22c02;
 }
 
 
@@ -49,7 +49,7 @@ td{
 }
 
 /*Adds color to the odd rows in the table*/
-tr:nth-child(odd) {background-color: #d3e788;}
+tr:nth-child(odd) {background-color: #fe9772;}
 /* Style rule for the container */
 #container {
 	width: 80%;

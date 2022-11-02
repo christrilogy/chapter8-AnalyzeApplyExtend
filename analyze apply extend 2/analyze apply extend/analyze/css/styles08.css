@@ -1,7 +1,7 @@
 /*
-Author:
-Date:
-File Name: 
+Author: Christian Morgan
+Date:11/1/22
+File Name: styles08
 */
 
 /* Style for body specifies a background color */
@@ -25,8 +25,8 @@ footer {
 	text-align: center;
 }
 
-/* Media query for tablet layout */ 
+/* Media query for tablet layout */
 @media only screen and (min-width: 600px) {
 
-    
+
 }
