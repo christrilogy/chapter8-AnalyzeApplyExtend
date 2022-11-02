@@ -17,6 +17,12 @@ body {
 }
 
 /* Style rules for form elements */
+
+
+input, label{
+	display: block;
+}
+
 fieldset, input{
 	margin-bottom: 2%;
 }
@@ -45,6 +51,23 @@ footer {
 
 /* Media query for tablet layout */
 @media only screen and (min-width: 600px) {
+	form{
+		width: 80%;
+		margin-top: 0;
+		margin-bottom: 0;
+		margin-left: auto;
+		margin-right: auto;
+	}
 
+	.grid{
+		display: grid;
+		grid-template-columns: auto auto;
+		grid-gap: 20px;
 
+	}
+
+.btn{
+	grid-column: 1 / span 2;
+	padding: 3%;
+}
 }
