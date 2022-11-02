@@ -17,7 +17,9 @@ body {
 }
 
 /* Style rules for form elements */
-
+fieldset{
+	margin-bottom: 2%;
+}
 
 /* Style for the footer element */
 footer {
